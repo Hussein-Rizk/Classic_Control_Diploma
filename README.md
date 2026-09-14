@@ -21,6 +21,9 @@ For each exercise, the general workflow was:
 
 The repository preserves the original **CADe circuit files** together with **simulation videos** demonstrating the operation of the circuits.
 
+<p align="center">
+  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="800">
+</p>
 ---
 
 ## 🧠 Concepts Practiced
