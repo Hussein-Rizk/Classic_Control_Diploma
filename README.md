@@ -4,6 +4,10 @@ Practical industrial control and automation training covering **classic electric
 
 This repository documents exercises completed throughout the diploma, beginning with **classic control circuits designed and tested using CADe_SIMU** before implementation using real electrical control components. PLC exercises using **Siemens TIA Portal** and **Logix** will be added as the repository is expanded.
 
+<p align="center">
+  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="800">
+</p>
+
 ---
 
 ## ⚡ Classic Control — CADe_SIMU
@@ -21,9 +25,7 @@ For each exercise, the general workflow was:
 
 The repository preserves the original **CADe circuit files** together with **simulation videos** demonstrating the operation of the circuits.
 
-<p align="center">
-  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="800">
-</p>
+
 ---
 
 ## 🧠 Concepts Practiced
