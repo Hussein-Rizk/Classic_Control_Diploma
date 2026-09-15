@@ -59,7 +59,7 @@ Original `.rsl` PLC programs are included together with recorded simulation vide
 ## LogixPro Simulation Example
 
 <p align="center">
-  <img src="PLC%20Logix%20Pro%20Tasks/PLC_LogixPro.gif"
+  <img src="PLC%20LogixPro%20Tasks/PLC_LogixPro.gif"
        alt="LogixPro PLC Ladder Logic Simulation"
        width="850">
 </p>
