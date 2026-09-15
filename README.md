@@ -1,16 +1,22 @@
 # Classic Control & PLC Diploma
 
-Practical industrial control and automation training covering **classic electrical control circuits**, circuit simulation, physical implementation, and PLC programming.
+Practical industrial control and automation training covering **classic electrical control, PLC programming, ladder logic, circuit simulation, and industrial process simulation**.
 
-This repository documents exercises completed throughout the diploma, beginning with **classic control circuits designed and tested using CADe_SIMU** before implementation using real electrical control components. PLC exercises using **Siemens TIA Portal** and **Logix** will be added as the repository is expanded.
+This repository documents exercises completed throughout the diploma using:
 
-<p align="center">
-  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="800">
-</p>
+- **CADe_SIMU** for classic electrical control circuits
+- **LogixPro PLC Simulator** for PLC ladder-logic programming and process simulation
+- **Siemens TIA Portal** — to be added
+
+
 
 ---
 
 ## ⚡ Classic Control — CADe_SIMU
+
+<p align="center">
+  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="500">
+</p>
 
 The first part of the training focused on understanding and building **electrical control circuits**.
 
