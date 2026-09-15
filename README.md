@@ -1,196 +1,219 @@
 # Classic Control & PLC Diploma
 
-Practical industrial control and automation training covering **classic electrical control circuits**, circuit simulation, physical implementation, and PLC programming.
+Practical industrial control and automation training covering **classic electrical control, PLC programming, ladder logic, circuit simulation, and industrial process simulation**.
 
-This repository documents exercises completed throughout the diploma, beginning with **classic control circuits designed and tested using CADe_SIMU** before implementation using real electrical control components. PLC exercises using **Siemens TIA Portal** and **Logix** will be added as the repository is expanded.
+This repository documents exercises completed throughout the diploma using:
 
----
-
-## ⚡ Classic Control — CADe_SIMU
-
-The first part of the training focused on understanding and building **electrical control circuits**.
-
-For each exercise, the general workflow was:
-
-1. Understand the required control sequence.
-2. Design the power and control circuits.
-3. Build the circuit in **CADe_SIMU**.
-4. Run the simulation and verify the operating sequence.
-5. Correct wiring or logic problems when necessary.
-6. Implement the circuit using physical control components during practical training.
-
-The repository preserves the original **CADe circuit files** together with **simulation videos** demonstrating the operation of the circuits.
+- **CADe_SIMU** for classic electrical control circuits
+- **LogixPro PLC Simulator** for PLC ladder-logic programming and process simulation
+- **Siemens TIA Portal** — to be added
 
 ---
 
-## 🧠 Concepts Practiced
+## ⚡ 1. Classic Control — CADe_SIMU
 
-The exercises progressively introduced classic industrial-control concepts such as:
+The first part of the diploma focused on designing and understanding traditional electrical control circuits before moving to PLC-based automation.
 
-* Power and control circuit separation
-* Start/Stop control
-* Push-button control
-* Contactors
-* Auxiliary contacts
-* Electrical interlocking
-* Motor-control circuits
-* Sequential control
-* Timer-based control
-* Multiple-load control
-* Relay/contactor logic
-* Circuit troubleshooting
-* Translating control requirements into electrical circuits
+The general workflow was:
 
-> Individual task descriptions will be documented as the repository is refined.
+1. Analyze the required control sequence
+2. Design the power and control circuits
+3. Build the circuit using **CADe_SIMU**
+4. Simulate and verify the circuit behavior
+5. Troubleshoot wiring and logic
+6. Apply the same concepts to practical electrical-control hardware
 
----
+### CADe_SIMU Example
 
-## 🖥️ CADe_SIMU Simulation
+<p align="center">
+  <img src="Classic%20Control%20Tasks/CADe_Simu.gif"
+       alt="CADe SIMU Classic Control Simulation"
+       width="850">
+</p>
 
-**CADe_SIMU** was used to design and test the electrical circuits virtually before practical implementation.
+### Concepts Practiced
 
-The simulations made it possible to verify:
+- Power and control circuits
+- Start / Stop circuits
+- Contactors and auxiliary contacts
+- Electrical interlocking
+- Motor-control circuits
+- Timer-based control
+- Sequential operation
+- Relay / contactor logic
+- Multiple-motor control
+- Circuit troubleshooting
 
-* Circuit wiring
-* Contactor operation
-* Control logic
-* Motor activation
-* Interlocking conditions
-* Timing sequences
-* Expected circuit behavior
-
-Simulation videos are included alongside the corresponding circuit files so that the behavior of each exercise can be viewed without requiring CADe_SIMU.
+The original CADe files are preserved together with recorded simulations showing the operation of the circuits.
 
 ---
 
-## 🔌 Practical Implementation
+# 🧠 2. PLC Programming — LogixPro
 
-After validating the circuits through simulation, the exercises were intended to be implemented using physical electrical-control hardware.
+The next stage of the diploma introduced **Programmable Logic Controllers (PLCs)** using the **LogixPro PLC Simulator**.
 
-Depending on the exercise, practical components included items such as:
+The exercises were programmed using **ladder logic** and tested against LogixPro's built-in industrial process simulators.
 
-* Contactors
-* Relays
-* Push buttons
-* Power supply
-* Electrical wiring / jumper connections
-* Motors or simulated loads
-* Other industrial-control components required by the individual circuit
+Original `.rsl` PLC programs are included together with recorded simulation videos.
 
-Only hardware implementations for which original photos, videos, or documentation are available will be presented as completed physical builds in this repository.
+## LogixPro Simulation Example
 
----
+<p align="center">
+  <img src="PLC%20Logix%20Pro%20Tasks/PLC_LogixPro.gif"
+       alt="LogixPro PLC Ladder Logic Simulation"
+       width="850">
+</p>
 
-## 🎬 Simulation Evidence
-
-Most classic-control exercises contain two forms of original material:
-
-### Circuit Source
-
-The original CADe_SIMU circuit file used to construct and simulate the electrical circuit.
-
-### Simulation Video
-
-A recorded simulation showing the circuit operating and demonstrating changes in the state of components such as contactors, timers, and motors.
-
-This allows the exercises to remain viewable even when CADe_SIMU is not installed.
+The example above shows ladder logic running online while interacting with the **Batch Mix process simulator**, allowing PLC inputs, outputs, counters, and process states to be observed during execution.
 
 ---
 
-## 🧪 Example — Multi-Motor Timed Control
+## 🪜 Ladder Logic Concepts
 
-One of the later exercises contains separate power and control sections with multiple motor loads, contactors, and timers.
+The LogixPro exercises included practical work with concepts such as:
 
-The accompanying CADe_SIMU recording demonstrates the circuit being simulated and the controlled components changing state according to the implemented control logic.
-
-The original simulation and circuit source are preserved in the corresponding task directory.
-
-> A more detailed description of the exact operating sequence will be added only after the task documentation is available.
+- PLC inputs and outputs
+- Ladder logic programming
+- Start / Stop logic
+- Latching logic
+- Timers
+- Counters
+- Comparison instructions
+- One-shot instructions
+- Status / state retention
+- Sequential control
+- Motor sequencing
+- Forward / reverse control
+- Repetitive machine cycles
+- Process automation
+- PLC troubleshooting and online monitoring
 
 ---
 
-## 🏭 Training Workflow
+## 🏭 LogixPro Process Simulations
+
+Several built-in LogixPro process environments were used to test the PLC programs.
+
+### 🧪 Batch Mix Simulator
+
+Exercises involving automated batch-processing sequences using components such as:
+
+- Pumps
+- Flowmeters
+- Mixer
+- Heater
+- Level sensors
+- Thermostat
+- PLC-controlled filling and processing stages
+
+PLC ladder logic was monitored online while the simulated process responded to the program.
+
+---
+
+### 🚪 Door Simulator
+
+PLC exercises were also developed and tested using the **door simulation environment**, providing practice with sequence and state-based control.
+
+---
+
+### ⚙️ Motor-Control Exercises
+
+Multiple exercises focused on controlling motors using ladder logic, including:
+
+- Multiple-motor sequences
+- Repeated motor operation
+- Sequential activation
+- Forward / reverse control
+- Start / Stop behavior
+
+---
+
+### ⏱️ Timer & Counter Exercises
+
+Exercises included control sequences based on:
+
+- Timed ON/OFF operation
+- Counters
+- Repeated cycles
+- Comparison conditions
+- One-shot logic
+
+Examples in the original files include timing exercises such as **5-second ON / 2-second OFF** operation and counter-based control.
+
+---
+
+### 📊 Process & Input/Output Exercises
+
+Additional exercises explored PLC input/output behavior and process conditions, including pressure-related simulation cases and different control solutions.
+
+---
+
+## 🔄 Training Progression
 
 ```text
-Control Requirement
-        │
-        ▼
-Electrical Logic Design
-        │
-        ▼
-CADe_SIMU Circuit
-        │
-        ▼
-Virtual Simulation & Testing
-        │
-        ▼
-Troubleshooting / Verification
-        │
-        ▼
-Physical Wiring & Implementation
-```
-
-This workflow helped connect **control theory and electrical diagrams with practical industrial wiring**.
-
----
-
-## 🛠️ Software & Tools
-
-### Current
-
-* **CADe_SIMU** — electrical control circuit design and simulation
-
-### To Be Added
-
-* **Siemens TIA Portal** — PLC programming and automation
-* **Logix** — PLC programming exercises
+Classic Electrical Control
+          │
+          ▼
+    CADe_SIMU Design
+          │
+          ▼
+ Virtual Circuit Testing
+          │
+          ▼
+ Relay / Contactor Logic
+          │
+          ▼
+     PLC Fundamentals
+          │
+          ▼
+  LogixPro Ladder Logic
+          │
+          ▼
+Industrial Process Simulation
+          │
+          ▼
+   Siemens TIA Portal
+       (Coming Next)
 
 ---
 
-## 🎯 Skills Demonstrated
+🎬 Source & Simulation Evidence
 
-* Classic electrical control
-* Industrial motor-control fundamentals
-* Electrical schematic design
-* Power and control circuits
-* Relay and contactor logic
-* Timer-based control
-* Sequential control logic
-* Electrical interlocking
-* Circuit simulation
-* Circuit troubleshooting
-* Practical control-system implementation
-* Industrial automation fundamentals
+Where available, exercises contain both:
 
----
+Source Files
 
-## 📌 Repository Status
+Original simulator or PLC project files such as:
 
-This repository is being progressively organized from the original diploma material.
+CADe_SIMU circuit files
+LogixPro .rsl ladder-logic programs
+Simulation Recordings
 
-### Available
+Recorded videos show the original circuits or PLC programs running inside their respective simulation environments.
 
-* Classic Control exercises
-* Original CADe_SIMU circuit files
-* Circuit simulation recordings
-
-### Planned
-
-* Detailed task descriptions
-* Selected circuit screenshots
-* Practical implementation media where available
-* Siemens TIA Portal PLC exercises
-* Logix PLC exercises
+This makes it possible to review the behavior of the exercises even without having the original software installed.
 
 ---
 
-## 📝 Documentation Note
+🛠️ Software & Tools
+<p> <img src="https://img.shields.io/badge/CADe_SIMU-2F4F4F?style=for-the-badge" /> <img src="https://img.shields.io/badge/LogixPro-CC0000?style=for-the-badge" /> <img src="https://img.shields.io/badge/Ladder_Logic-00599C?style=for-the-badge" /> <img src="https://img.shields.io/badge/Siemens_TIA_Portal-009999?style=for-the-badge&logo=siemens&logoColor=white" /> </p>
 
-The source files and recordings in this repository originate from the original training exercises.
+Siemens TIA Portal exercises will be added in the next stage of the repository.
 
-Descriptions are based on the available circuit files and simulation evidence. Features or hardware implementations are not claimed unless they can be verified from the original material.
+---
 
-
-
-Mechatronics Engineering
-GitHub: [Hussein-Rizk](https://github.com/Hussein-Rizk)
+🎯 Skills Demonstrated
+Industrial automation fundamentals
+Classic electrical control
+PLC programming
+Ladder logic
+Electrical schematic design
+Relay and contactor logic
+Motor control
+Sequential control
+Timer and counter programming
+Industrial process simulation
+Input / output logic
+Circuit and PLC troubleshooting
+Online PLC monitoring
+Translating control requirements into automation logic
