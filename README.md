@@ -15,7 +15,7 @@ This repository documents exercises completed throughout the diploma using:
 ## ⚡ Classic Control — CADe_SIMU
 
 <p align="center">
-  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="500">
+  <img src="Classic%20Control%20Tasks/CADe_Simu.gif" alt="CADe SIMU Simulation" width="650">
 </p>
 
 The first part of the training focused on understanding and building **electrical control circuits**.
