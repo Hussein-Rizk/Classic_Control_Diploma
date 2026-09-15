@@ -174,3 +174,46 @@ Industrial Process Simulation
           ▼
    Siemens TIA Portal
        (Coming Next)
+
+---
+
+🎬 Source & Simulation Evidence
+
+Where available, exercises contain both:
+
+Source Files
+
+Original simulator or PLC project files such as:
+
+CADe_SIMU circuit files
+LogixPro .rsl ladder-logic programs
+Simulation Recordings
+
+Recorded videos show the original circuits or PLC programs running inside their respective simulation environments.
+
+This makes it possible to review the behavior of the exercises even without having the original software installed.
+
+---
+
+🛠️ Software & Tools
+<p> <img src="https://img.shields.io/badge/CADe_SIMU-2F4F4F?style=for-the-badge" /> <img src="https://img.shields.io/badge/LogixPro-CC0000?style=for-the-badge" /> <img src="https://img.shields.io/badge/Ladder_Logic-00599C?style=for-the-badge" /> <img src="https://img.shields.io/badge/Siemens_TIA_Portal-009999?style=for-the-badge&logo=siemens&logoColor=white" /> </p>
+
+Siemens TIA Portal exercises will be added in the next stage of the repository.
+
+---
+
+🎯 Skills Demonstrated
+Industrial automation fundamentals
+Classic electrical control
+PLC programming
+Ladder logic
+Electrical schematic design
+Relay and contactor logic
+Motor control
+Sequential control
+Timer and counter programming
+Industrial process simulation
+Input / output logic
+Circuit and PLC troubleshooting
+Online PLC monitoring
+Translating control requirements into automation logic
