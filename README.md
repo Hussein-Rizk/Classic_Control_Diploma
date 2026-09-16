@@ -10,6 +10,46 @@ This repository documents exercises completed throughout the diploma using:
 
 ---
 
+## 🎓 Certificates
+
+<p align="center">
+  <a href="./Classic%20Control%20Certificate.pdf">
+    <img src="./Classic%20Control%20Certificate.png"
+         alt="Classic Control Certificate"
+         width="60%">
+  </a>
+</p>
+
+<p align="center">
+  <b>Click the certificate to view the original PDF.</b>
+</p>
+
+<p align="center">
+  <a href="./PLC%20Basic%20Programming%20Certificate.pdf">
+    <img src="./PLC%20Basic%20Programming%20Certificate.png"
+         alt="PLC Basic Programming Certificate"
+         width="60%">
+  </a>
+</p>
+
+<p align="center">
+  <b>Click the certificate to view the original PDF.</b>
+</p>
+
+<p align="center">
+  <a href="./Motor%20Drive%20Programming%20Certificate.pdf">
+    <img src="./Motor%20Drive%20Programming%20Certificate.png"
+         alt="Motor Drive Programming Certificate"
+         width="60%">
+  </a>
+</p>
+
+<p align="center">
+  <b>Click the certificate to view the original PDF.</b>
+</p>
+
+---
+
 ## ⚡ 1. Classic Control — CADe_SIMU
 
 The first part of the diploma focused on designing and understanding traditional electrical control circuits before moving to PLC-based automation.
